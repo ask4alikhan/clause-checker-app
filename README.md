@@ -45,7 +45,7 @@ $ python3 clause_checker.py
 	- [Twinword API: Text Similarity](https://www.twinword.com)
 
 
-## results with this app
+## app prediction results
 * **Actual:** Compared two legal documents (.docx) with four sections & only Section-2 had differing clause. 
 * **Prediction:** Below is the 'extract-text => predict' run for a model thats trained on Quora Questions data-set.
 ![one](../master/images/clause-predict-app-run1.png)
