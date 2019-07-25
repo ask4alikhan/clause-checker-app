@@ -1,7 +1,7 @@
 # clause-checker-app
-  Is a proto-type built to extract legal clauses (having 'Section' headers) from couple of documents 
+  Is a proto-type built to diff legal clauses (having 'Section' headers) from input of two documents 
   (formats: docx/pdf/images/* supported by python-docx, pytessaract) & run predictions on simlar clauses 
-  (using Siamese-LSTM), trained using 'Quora Question Pairs' dataset & achieved 82% accuracy	
+  (using Siamese-LSTM), trained this model using 'Quora Question Pairs' dataset of about 350K rows & achieved 82% accuracy	
 
 ### how to run
 ```shellscript
@@ -25,7 +25,24 @@ $ python3 clause_checker.py
     - Add Test Coverage
 
 ### references 
-* [Siamese LSTM](https://github.com/likejazz/Siamese-LSTM) for evaluating semantic similarity between sentences of the Quora Question Pairs Dataset.
+- Paper, Articles
+    - [Siamese Recurrent Architectures for Learning Sentence Similarity](http://www.mit.edu/~jonasm/info/MuellerThyagarajan_AAAI16.pdf)
+    - [How to predict Quora Question Pairs using Siamese Manhattan LSTM](https://medium.com/mlreview/implementing-malstm-on-kaggles-quora-question-pairs-competition-8b31b0b16a07)
+    - [Medium: Text Similarity](https://medium.com/@adriensieg/text-similarities-da019229c894)
+	- [Kaggle Quora Question Pairs Script](https://www.kaggle.com/lamdang/dl-models)
+	- [Legal Document Retrival Paper](https://arxiv.org/pdf/1805.10685.pdf)
+	- [PyData Amsterdam 2017: Siamese LSTM in Keras](https://www.youtube.com/watch?v=SWjIoRNTCdU)
+	- [Duplicate Question Detection with Deep Learning on Quora Dataset](http://www.erogol.com/duplicate-question-detection-deep-learning/)
+- Data
+    - [GoogleNews-vectors-negative300.bin.gz](https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit?usp=sharing)
+    - [Kaggle's Quora Question Pairs Dataset](https://www.kaggle.com/c/quora-question-pairs/data)
+- References
+	- [likejazz/Siamese-LSTM](https://github.com/likejazz/Siamese-LSTM)
+    - [aditya1503/Siamese-LSTM](https://github.com/aditya1503/Siamese-LSTM) Original author's GitHub
+    - [dhwajraj/deep-siamese-text-similarity](https://github.com/dhwajraj/deep-siamese-text-similarity) TensorFlow based implementation
+    - [Dandelion API: Text Similarity](https://dandelion.eu/semantic-text/text-similarity-demo/?text1=My+name+is+Theia+Khan&text2=My+name+is+Aedan+Ali+Khan&lang=auto&exec=true)
+	- [Twinword API: Text Similarity](https://www.twinword.com)
+	- [GitHub: Tesseract-python](https://github.com/nikhilkumarsingh/tesseract-python)
 
 ## results with this app
 * **Actual:** Compared two legal documents (.docx) with four sections & only Section-2 had differing clause. 
