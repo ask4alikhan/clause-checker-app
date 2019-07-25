@@ -40,7 +40,7 @@ $ python3 clause_checker.py
 	- [likejazz/Siamese-LSTM](https://github.com/likejazz/Siamese-LSTM)
     - [aditya1503/Siamese-LSTM](https://github.com/aditya1503/Siamese-LSTM)
     - [dhwajraj/deep-siamese-text-similarity](https://github.com/dhwajraj/deep-siamese-text-similarity)
-    - [GitHub: Tesseract-python](https://github.com/nikhilkumarsingh/tesseract-python)
+    - [nikhilkumarsingh/tesseract-python](https://github.com/nikhilkumarsingh/tesseract-python)
     - [Dandelion API: Text Similarity](https://dandelion.eu/semantic-text/text-similarity-demo/?text1=My+name+is+Theia+Khan&text2=My+name+is+Aedan+Ali+Khan&lang=auto&exec=true)
 	- [Twinword API: Text Similarity](https://www.twinword.com)
 
