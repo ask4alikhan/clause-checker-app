@@ -51,8 +51,8 @@ $ python3 clause_checker.py
 ![one](../master/images/clause-predict-app-run1.png)
 ![one](../master/images/clause-predict-app-run2.png)
 
-## [twinword](https://www.twinword.com/api/text-similarity.php) Text Simlarity app prediction for Section-2
+## [twinword](https://www.twinword.com/api/text-similarity.php) text simlarity app prediction for Section-2
 ![one](../master/images/twinword_section2.png)
 
-## [dandelion](https://dandelion.eu) Sentence Simlarity app prediction for Section-1
+## [dandelion](https://dandelion.eu) sentence simlarity app prediction for Section-1
 ![one](../master/images/Dandelion_TextSimilarity.png)
