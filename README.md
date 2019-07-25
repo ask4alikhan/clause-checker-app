@@ -26,7 +26,7 @@ $ python3 clause_checker.py
 
 ### references 
 - Paper, Articles
-    - [Siamese Recurrent Architectures for Learning Sentence Similarity](http://www.mit.edu/~jonasm/info/MuellerThyagarajan_AAAI16.pdf)
+    - [Siamese Recurrent Architectures for Learning Sentence Similarity](http://people.csail.mit.edu/jonasmueller/info/MuellerThyagarajan_AAAI16.pdf)
     - [How to predict Quora Question Pairs using Siamese Manhattan LSTM](https://medium.com/mlreview/implementing-malstm-on-kaggles-quora-question-pairs-competition-8b31b0b16a07)
     - [Medium: Text Similarity](https://medium.com/@adriensieg/text-similarities-da019229c894)
 	- [Kaggle Quora Question Pairs Script](https://www.kaggle.com/lamdang/dl-models)
@@ -38,11 +38,12 @@ $ python3 clause_checker.py
     - [Kaggle's Quora Question Pairs Dataset](https://www.kaggle.com/c/quora-question-pairs/data)
 - References
 	- [likejazz/Siamese-LSTM](https://github.com/likejazz/Siamese-LSTM)
-    - [aditya1503/Siamese-LSTM](https://github.com/aditya1503/Siamese-LSTM) Original author's GitHub
-    - [dhwajraj/deep-siamese-text-similarity](https://github.com/dhwajraj/deep-siamese-text-similarity) TensorFlow based implementation
+    - [aditya1503/Siamese-LSTM](https://github.com/aditya1503/Siamese-LSTM)
+    - [dhwajraj/deep-siamese-text-similarity](https://github.com/dhwajraj/deep-siamese-text-similarity)
+    - [GitHub: Tesseract-python](https://github.com/nikhilkumarsingh/tesseract-python)
     - [Dandelion API: Text Similarity](https://dandelion.eu/semantic-text/text-similarity-demo/?text1=My+name+is+Theia+Khan&text2=My+name+is+Aedan+Ali+Khan&lang=auto&exec=true)
 	- [Twinword API: Text Similarity](https://www.twinword.com)
-	- [GitHub: Tesseract-python](https://github.com/nikhilkumarsingh/tesseract-python)
+
 
 ## results with this app
 * **Actual:** Compared two legal documents (.docx) with four sections & only Section-2 had differing clause. 
