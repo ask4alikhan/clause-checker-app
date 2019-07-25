@@ -1,5 +1,5 @@
 # clause-checker-app
-  Is a proto-type built to diff legal clauses (having 'Section' headers) from input of two documents 
+  Is a prototype built to diff legal clauses (having 'Section' headers) from input of two documents 
   (formats: docx/pdf/images/* supported by python-docx, pytessaract) & run predictions on simlar clauses 
   (using Siamese-LSTM), trained this model using 'Quora Question Pairs' dataset of about 350K rows & achieved 82% accuracy	
 
