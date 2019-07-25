@@ -24,7 +24,7 @@ $ python3 clause_checker.py
     - Code modularizations
     - Add Test Coverage
 
-#### references 
+### references 
 - [Siamese LSTM](https://github.com/likejazz/Siamese-LSTM) for evaluating semantic similarity between sentences of the Quora Question Pairs Dataset.
 
 ### results
