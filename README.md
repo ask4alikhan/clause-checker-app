@@ -13,7 +13,6 @@ $ python3 clause_checker.py
 * Comparing only clauses in 'Section' headers
 * Sections should be present on both documents, currently missing sections not handled
      
-
 ### suggested enhancements
 * Training the Siamese-LSTM model with legal clauses will improve prediction accuracy. This will also help with both extracting the clauses (from documents) & predicting simlarities.
 * Provide UI / Webservices to invoke this from anywhere.
@@ -27,11 +26,12 @@ $ python3 clause_checker.py
 
 ### results
 #### with this app: #### 
+
 #### with twinword Text Simlarity results for Section-2: #### 
+
 #### with Dandelion sentence simlarity results for Section-1: ####  
+
 
 
 #### references #### 
   a. [Siamese LSTM](https://github.com/likejazz/Siamese-LSTM) for evaluating semantic similarity between sentences of the Quora Question Pairs Dataset.
-    
-      
