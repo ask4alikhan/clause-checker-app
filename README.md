@@ -14,7 +14,7 @@ $ python3 clause_checker.py
 * Sections should be present on both documents, currently missing sections not handled
      
 ### suggested enhancements
-* Training the Siamese-LSTM model with legal clauses will improve prediction accuracy. This will also help with both extracting the clauses (from documents) & predicting simlarities.
+* Training the Siamese-LSTM model with legal clauses will improve prediction accuracy. This will also help with both clause extraction (from documents) & simalarity prediction.
 * Provide UI / Webservices to invoke this from anywhere.
 * Need to add another layer to track all referential legal clauses as a base & probably add search engine capabilities (using Elasticsearch/Solr)
 * tech debt: 
