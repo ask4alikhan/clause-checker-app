@@ -24,14 +24,17 @@ $ python3 clause_checker.py
     - Code modularizations
     - Add Test Coverage
 
-### results
-#### with this app: #### 
+### references 
+* [Siamese LSTM](https://github.com/likejazz/Siamese-LSTM) for evaluating semantic similarity between sentences of the Quora Question Pairs Dataset.
 
-#### with twinword Text Simlarity results for Section-2: #### 
+## results with this app
+* **Actual:** Compared two legal documents (.docx) with four sections & only Section-2 had differing clause. 
+* **Prediction:** Below is the 'extract-text => predict' run for a model thats trained on Quora Questions data-set.
+![one](../master/images/clause-predict-app-run1.png)
+![one](../master/images/clause-predict-app-run2.png)
 
-#### with Dandelion sentence simlarity results for Section-1: ####  
+## [twinword](https://www.twinword.com/api/text-similarity.php) Text Simlarity app prediction for Section-2
+![one](../master/images/twinword_section2.png)
 
-
-
-#### references #### 
-  a. [Siamese LSTM](https://github.com/likejazz/Siamese-LSTM) for evaluating semantic similarity between sentences of the Quora Question Pairs Dataset.
+## [dandelion](https://dandelion.eu) Sentence Simlarity app prediction for Section-1
+![one](../master/images/Dandelion_TextSimilarity.png)
