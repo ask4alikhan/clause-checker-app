@@ -28,14 +28,15 @@ $ python3 clause_checker.py
 - [Siamese LSTM](https://github.com/likejazz/Siamese-LSTM) for evaluating semantic similarity between sentences of the Quora Question Pairs Dataset.
 
 ### results
-#### with this app
+#### with this app ####
 * Actual: Compared two legal documents (.docx) with four sections & only Section-2 had differing clause. 
 * Prediction: Below is the 'extract-text => predict' run for a model thats trained on Quora Questions data-set.
-![one](../master/images/clause-predict-app-run1.png)
-![one](../master/images/clause-predict-app-run2.png)
+*![one](../master/images/clause-predict-app-run1.png)
+*![one](../master/images/clause-predict-app-run2.png)
 
 #### with twinword Text Simlarity app #### 
 * results for Section-2
+*_
 ![one](../master/images/twinword_section2.png)
 
 #### with Dandelion Sentence Simlarity app ####  
