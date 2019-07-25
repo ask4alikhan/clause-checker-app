@@ -29,15 +29,17 @@ $ python3 clause_checker.py
 
 ### results
 #### with this app: ####
+
 * Actual: Compared two legal documents (.docx) with four sections & only Section-2 had differing clause. 
 * Prediction: Below is the 'extract-text => predict' run for a model thats trained on Quora Questions data-set.
-![one](../master/src/images/clause-predict-app-run1.png)
-![one](../master/src/images/clause-predict-app-run2.png)
+![one](../master/images/clause-predict-app-run1.png)
+![one](../master/images/clause-predict-app-run2.png)
 
 #### with twinword Text Simlarity app #### 
+
 * results for Section-2
 ![one](../master/src/images/twinword_section2.png)
 
 #### with Dandelion Sentence Simlarity app ####  
-* results for Section-1 
-![one](../master/src/images/Dandelion_TextSimilarity.png)
+* results for Section-1
+![one](../master/images/Dandelion_TextSimilarity.png)
